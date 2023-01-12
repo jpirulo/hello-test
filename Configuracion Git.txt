@@ -1,0 +1,10 @@
+Configuracion Git
+git config --global user.name "usuario"
+git config --global user.emal "email@email.com"
+
+git init inicializa una carpeta con control de versiones en pocas palabras es un repositorio
+cuando se inicia se crea una rama llamada master
+
+cambiar tema del bash https://ohmyz.sh/#install
+
+git branch -m main (cambia el nombre de la rama)
