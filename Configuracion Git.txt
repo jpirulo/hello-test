@@ -1,4 +1,4 @@
-Configuracion Git
+* Configuracion Git
 git config --global user.name "usuario"
 git config --global user.emal "email@email.com"
 
@@ -7,11 +7,11 @@ cuando se inicia se crea una rama llamada master
 
 cambiar tema del bash https://ohmyz.sh/#install
 
-git branch -m main (cambia el nombre de la rama)
+* git branch -m main (cambia el nombre de la rama)
 
 $ git status muestra archivos que no se han actualizado en git
 
-para anadir archivos 
+* para anadir archivos 
 
 git add (filename)
 
@@ -28,3 +28,6 @@ $ git log --graph --decorate --all --oneline
 crear alias (para ejecutar comandos largos en una sola linea sin necesidad de escribirlos )
 $ git config --global alias.tree "log --graph --decorate -all --oneline"
 alias.(nombre del aliias)
+
+ignorar archivos
+crear un archivo llamado .gitignore
