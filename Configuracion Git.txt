@@ -8,3 +8,23 @@ cuando se inicia se crea una rama llamada master
 cambiar tema del bash https://ohmyz.sh/#install
 
 git branch -m main (cambia el nombre de la rama)
+
+$ git status muestra archivos que no se han actualizado en git
+
+para anadir archivos 
+
+git add (filename)
+
+git commit -m comentario ("actauliza el archvivo al sistema de git)
+
+Revertir cambios. 
+git checkout regresar a los cambios antes de hacer commit.
+
+observas el log en ramas
+$ git log --graph
+$ git log --graph --pretty=oneline
+$ git log --graph --decorate --all --oneline
+
+crear alias (para ejecutar comandos largos en una sola linea sin necesidad de escribirlos )
+$ git config --global alias.tree "log --graph --decorate -all --oneline"
+alias.(nombre del aliias)
