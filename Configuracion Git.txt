@@ -31,3 +31,5 @@ alias.(nombre del aliias)
 
 ignorar archivos
 crear un archivo llamado .gitignore
+* git diff 
+muestra las diferencias antes de hacer el commit
