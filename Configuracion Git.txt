@@ -52,3 +52,4 @@ git merge (combinar cambios ) entre las ramas (main) -> y la rama que este posic
 git stash  (almacena temporalmente solo queda reflejado en el local, no se guarada en la rama)
 git diff compara archivos y ramas
 
+git branch -d Login (elimina rama )
