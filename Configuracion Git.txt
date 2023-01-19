@@ -34,7 +34,6 @@ crear un archivo llamado .gitignore
 * git diff 
 muestra las diferencias antes de hacer el commit
 ****************1/18/2023**************************
-
 git reset (descartar cambios) 
 git reset --hard (id del ultimo clog) 
 git reflog (muestra todo el historia incluyendo los reset que no aparecen en el git log)
@@ -48,3 +47,7 @@ git branch (nombre rama)
 git branch login
 para moverme entre las ramas 
 ➜ git switch login me muevo a esa rama
+git merge (combinar cambios ) entre las ramas (main) -> y la rama que este posicionado.
+
+git stash  (almacena temporalmente solo queda reflejado en el local, no se guarada en la rama)
+
