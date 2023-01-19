@@ -47,9 +47,7 @@ ramas----
 git branch (nombre rama)
 git branch login
 para moverme entre las ramas 
-<<<<<<< HEAD
 ➜ git switch login me muevo a esa rama
 git merge (combinar cambios ) entre las ramas (main) -> y la rama que este posicionado.
-=======
-➜ git switch login me muevo a esa rama
->>>>>>> main
+
+git stash  (almacena temporalmente solo queda reflejado en el local, no se guarada en la rama)
