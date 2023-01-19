@@ -50,4 +50,5 @@ para moverme entre las ramas
 git merge (combinar cambios ) entre las ramas (main) -> y la rama que este posicionado.
 
 git stash  (almacena temporalmente solo queda reflejado en el local, no se guarada en la rama)
+git diff compara archivos y ramas
 
