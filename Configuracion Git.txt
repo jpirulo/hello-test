@@ -39,3 +39,13 @@ git reset (descartar cambios)
 git reset --hard (id del ultimo clog) 
 git reflog (muestra todo el historia incluyendo los reset que no aparecen en el git log)
 git tag (donde se modifican las versiones )
+git tag (muestra todos los tags) tambien me sirve como referencia en vez de colocar el id, para regresar a un punto especifico 
+      uso el git checkout tags/clase_1 
+git checkout main regreso a la rama ppal
+
+ramas----
+git branch (nombre rama)
+git branch login
+para moverme entre las ramas 
+➜ git switch login me muevo a esa rama
+git merge (combinar cambios ) entre las ramas (main) -> y la rama que este posicionado.
