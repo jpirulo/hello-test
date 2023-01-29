@@ -53,3 +53,47 @@ git stash  (almacena temporalmente solo queda reflejado en el local, no se guara
 git diff compara archivos y ramas
 
 git branch -d Login (elimina rama )
+
+Documentacion espanol. https://training.github.com/downloads/es_ES/github-git-cheat-sheet/
+
+Pasos para cear github.
+red social para desarrolladores.
+
+github.com/<usuairo> tu pagina ppal
+
+crear clvae ssh (revisar disco local )
+C:\Users\jpiru\.ssh 
+
+Abra Git Bash.
+
+Pega el siguiente texto, que sustituye tu dirección de correo electrónico en GitHub.
+
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
+
+Verifica que el agente ssh-agent se esté ejecutando. Puedes usar las instrucciones de "Auto-lanzamiento ssh-agent" en "Trabajar con contraseñas de clave SSH o iniciarla manualmente:
+
+# start the ssh-agent in the background
+$ eval "$(ssh-agent -s)"
+> Agent pid 59566
+
+$ ssh-add ~/.ssh/id_ed25519
+
+ir a github
+opcione usuario
+https://github.com/settings/keys
+
+New SSh
+
+Probar tu conexión SSH
+ssh -T git@github.com
+git push -u origin main
+
+
+
+---
+transferir de git a github
+debes estar en el directorio creado en git (local)
+git remote add origin https://github.com/jpirulo/tttt.git (indica emparejar el repositorio)
+git push (subir los archivos de local al repositorio)
+
+git fetch (descarga en local el historial de los cambios sin descargar los cambios)
